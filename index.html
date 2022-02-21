@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor's Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div class="header-1">
+
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>e-Grocery</a>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </div>
+
+    <div class="header-2">
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#Vendor Performance">vendor performance</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+    <form action="" class="login-form">
+    <h3>User's Profile</h3>
+    <div class="box">
+    <label for="fname"><h2>Full name(Max 20 characters):</h2</label>
+    <input type="text" id="fname" name="fname" required><br><br>
+    <label for="bits-id">BITS-ID:(202XABCD1234):</label>
+    <input for="text" id="bits-id" name="bits-id" pattern="[2][0][2][0-9][A-B][0-9][P][S][0-9]{4}[P]" required><br><br>
+    <label for="phone">Phone number(0123456789):</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <input type="submit" value="login now" class="btn">
+    </box>
+    </form>
+    </div>
+</header>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="home-img.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>fresh and organic</span>
+        <h3>your daily need products</h3>
+        <a href="#" class="btn">get started</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- order section starts-->
+
+<section class="order" id="order">
+    <h1 class="heading"><span> Vendor Performance</span> </h1>
+    <div class="row">
+        <div class="image-c">
+        <img width=1195px src="user-profile.jpg" alt="">
+       </div>
+       <form action="">
+           <div class="input-Box">
+            <label for="ed-date"><h2>Expected Delivery Date</h2></label>
+            <input type="date" id="ed-date" name="ed-date" required><br><br>
+            <label for="r-date"><h2>Recieved Delivery Date</h2></label>
+            <input type="date" id="r-date" name="r-date" required><br><br>
+           </div>
+               <div class="input-Box1">
+                <label for="Q-demanded"><h2>Quantity Demanded</h2></label>
+                <input type="number" id="Q-demanded" name="Q-demanded" required><br><br>
+                <label for="Q-demanded"><h2>Quantity Recieved</h2></label>
+              <input type="number" id="Q-recieved" name="Q-recieved" required><br><br>
+               </div>
+               <div class="input-Box2">
+                <label for="Q-returned"><h2>Quantity Returned</h2></label>
+                <input type="number" id="Q-returned" name="Q-returned" required><br><br>    
+               </div>
+               <div class="input-Boxsubmit">
+                <input type="submit" value="Submit" class="btn">
+                <a href="" class="btn">Clear</a>
+               </div>
+
+           </div>
+       </form>
+</section>
+
+<!-- banner section starts  -->
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="banner-1.jpg" alt="">
+        <div class="content">
+            <h3>special offer</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="banner-2.jpg" alt="">
+        <div class="content">
+            <h3>limited offer</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<section class="contact-us">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>e-Grocery</a>
+
+            <div class="share">
+                <a href="#" class="btn fab fa-facebook-f"></a>
+                <a href="#" class="btn fab fa-twitter"></a>
+                <a href="#" class="btn fab fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <h1 class="credit">created by<span> Parth Rastogi </span>| all rights reserved |</h1>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
