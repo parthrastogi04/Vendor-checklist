@@ -178,6 +178,13 @@ section{
   transition: .4s linear;
 }
 
+.navbar{
+  display: none;
+}
+.login-form{
+  display: none;
+}
+
 .home{
   display: flex;
   align-items: center;
@@ -301,6 +308,10 @@ section{
 }
 @media (max-width:768px)
 {
+  .image-c img{
+    height: 200px;
+    width: 300px;
+  }
   #menu-btn
   {
       display: inline-block;

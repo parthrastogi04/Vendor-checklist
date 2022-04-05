@@ -56,3 +56,17 @@ document.querySelector('#Submit-btn').onclick = () =>
     inputBoxsubmit.classList.toggle('active');
 
 }
+
+// var navba=1;
+function displayNavBar(){
+    if(document.querySelector('.navbar').style.display=="none")
+        document.querySelector('.navbar').style.display="block";
+    else
+        document.querySelector('.navbar').style.display="none";
+}
+function displayForm(){
+    if(document.querySelector('.login-form').style.display=="none")
+        document.querySelector('.login-form').style.display="block";
+    else
+        document.querySelector('.login-form').style.display="none";
+}
